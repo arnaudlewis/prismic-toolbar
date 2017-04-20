@@ -4,7 +4,7 @@ const webpack = require('webpack');
 
 module.exports = {
   entry: {
-    npm: ['whatwg-fetch', 'babel-polyfill', './src/index.js'],
+    npm: ['whatwg-fetch', './src/index.js'],
     script: ['whatwg-fetch', 'babel-polyfill', './src/browser.js'],
   },
   devtool: 'source-map',
